@@ -1222,7 +1222,7 @@ function showProspectChatMember(e) {
                   ? userMessages.prospect_data.company
                   : "No company name"
               }</h2>
-              <h3 class="dbMessageDM">${userMessages.sender_name != null ? `Clipper ${userMessages.sender_name} ${userMessages.database != null ? `from ${userMessages.database}` : ''}` : ""}</h3>
+              <h3 class="dbMessageDM">${userMessages.sender_name != null ? `Clipper: ${userMessages.sender_name} ${userMessages.database != null ? `, Database: ${userMessages.database}` : ''}` : ""}</h3>
             </div>
           </div>`;
 
